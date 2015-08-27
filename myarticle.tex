@@ -1,15 +1,81 @@
 \documentclass[11pt]{article}
 \usepackage{cite}
 \usepackage[utf8]{inputenc}
-\usepackage[norsk]{babel}
+%\usepackage[norsk]{babel}   %Endrer Contents til Inngold i tableofcontents
 
 
 \begin{document}
 
+\begin{titlepage}
+
 \title{My Article}
 \author{Nobody Jr.}
-\date{Today}
+%\date{Today}
+\date{Autumn 2015}
 \maketitle
+
+\newpage
+\end{titlepage}
+
+\pagestyle{plain}
+\setcounter{page}{1}
+\pagenumbering{Roman}
+
+\section{Abstract} % (fold)
+\label{sec:abstract}
+
+% section abstract (end)
+
+\newpage
+
+\tableofcontents
+
+\newpage
+
+\setcounter{page}{1}  
+\pagenumbering{arabic} 
+
+
+\section{Introduction} 
+\label{sec:introduction}
+
+\subsection{Introduction} % (fold)
+\label{sub:introduction}
+
+% subsection introduction (end)
+
+
+\subsection{Theory} % (fold)
+\label{sub:theory}
+
+% subsection theory (end)
+
+
+% section introduction (end)
+
+
+
+\section{Method} % (fold)
+\label{sec:method}
+
+
+\ref{sec:introduction} 
+
+% section method (end)
+
+
+\section{Result} % (fold)
+\label{sec:result}
+
+% section result (end)
+
+\section{Discussion} % (fold)
+\label{sec:discussion}
+
+% section discussion (end)
+
+
+
 
 Blablabla said Nobody ~\cite{Nobody06}.
 
@@ -18,3 +84,10 @@ hei på deg jeg sa en gang ~\cite{mrx05}
 \bibliography{mybib}{}
 \bibliographystyle{plain}
 \end{document}
+
+
+
+
+
+
+
